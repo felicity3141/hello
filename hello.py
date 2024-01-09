@@ -24,7 +24,6 @@ async def on_message(message):
 
 client.run("token eklenecek")
 
-
 async def on_member_join(self, member):
     guild = member.guild
     if guild.system_channel is not None:
